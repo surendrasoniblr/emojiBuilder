@@ -4,32 +4,58 @@
       Emoji Builder
       <b-icon icon="rocket" size="is-large" />
     </h2>
+
     <div class="columns">
       <div class="column is-8">{{lineData}}</div>
     </div>
-    <div class="columns" v-for="(data,i) in lineData" :key="i">
-      <div class="column is-8">
+
+    <div class="columns">
+      <div class="column is-2">
+        <div style="margin-top:auto">
+          <b-field label="Text">
+            <b-input v-model="emojiText"></b-input>
+          </b-field>
+        </div>
+      </div>
+      <div class="column is-2">
+        <div style="margin-top:auto">
+          <b-field label="Background">
+            <b-input v-model="emojiBackground"></b-input>
+          </b-field>
+        </div>
+      </div>
+      <div class="column is-2">
+        <b-button style="margin-top:auto" @click="addLine">Add Line</b-button>
+      </div>
+    </div>
+    <div class="columns" v-for="(data,i) in lineData.slice().reverse()" :key="i">
+      <div class="column is-7">
         <b-field label="Line">
           <b-input v-model="data.value"></b-input>
         </b-field>
       </div>
-      <div style="margin-top:auto" class="column is-4">
+      <div style="margin-top:auto" class="column is-1">
         <b-button @click="deleteColumn(data.id)" type="is-danger" icon-right="delete" />
       </div>
-    </div>
-    <div class="columns">
-      <div class="column is-8">
-        <b-button @click="addLine">Add Line</b-button>
+      <!-- <div style="margin-top:auto" class="column is-2">
+        <b-field label="Text">
+          <b-input v-model="data.emojiText"></b-input>
+        </b-field>
       </div>
+      <div style="margin-top:auto" class="column is-2">
+        <b-field label="Background">
+          <b-input v-model="data.emojiBackground"></b-input>
+        </b-field>
+      </div>-->
     </div>
     <div class="columns">
       <div class="column is-8">
         <table>
           <tr v-for="row in generateMatrix" :key="row.id">
-            <td v-for="(value, i) in row.value" :key="i">{{value ? 'A' : '0'}}</td>
+            <td :class="value ? 'on' : ''" v-for="(value, i) in row.value" :key="i"></td>
           </tr>
         </table>
-        <b-field label="Message">
+        <b-field label="Output">
           <b-input :value="copyMatrix" type="textarea"></b-input>
         </b-field>
       </div>
@@ -44,7 +70,9 @@ export default {
   data() {
     return {
       lineData: [],
-      matrix:[],
+      emojiText: "",
+      emojiBackground: "",
+      matrix: [],
       letterData: [
         {
           a: [
@@ -61,32 +89,46 @@ export default {
   },
   computed: {
     copyMatrix() {
-      let outputString = '';
+      let outputString = "";
       this.matrix.forEach(element => {
-          outputString += element.value.join('') + '\r\n'
+        let toBeAdded = element.value
+          .join("")
+          .replace(/0/g, element.emojiBackground)
+          .replace(/1/g, element.emojiText);
+
+        outputString += toBeAdded + "\r\n";
       });
-     return outputString;
+
+      return outputString;
     },
     generateMatrix() {
-      let array = [
-        { value: [0], id: 0 },
-        { value: [0], id: 1 },
-        { value: [0], id: 2 },
-        { value: [0], id: 3 },
-        { value: [0], id: 4 },
-        { value: [0], id: 5 },
-        { value: [0], id: 6 }
-      ];
+      let array = [];
 
       if (!this.lineData.length) {
         return "";
       }
 
-      this.lineData.forEach(line => {
+      this.lineData.forEach((line, lineNumber) => {
+        array = _.concat(this.createArrayFiller(lineNumber), array);
+
+        array.forEach(element => {
+          element.emojiText = this.emojiText ? this.emojiText : ":smile:";
+          element.emojiBackground = this.emojiBackground
+            ? this.emojiBackground
+            : ":fire:";
+        });
+
+        // for (let index = lineNumber * 7; index < lineNumber * 7 + 7; index++) {
+        //   array[index].emojiText = line.emojiText ? line.emojiText : ":smile:";
+        //   array[index].emojiBackground = line.emojiBackground ? line.emojiBackground : ":fire:";
+        // }
+
         let lineArray = _.split(line.value, "");
+
         lineArray.forEach(letter => {
           letter = letter.toLowerCase();
           const foundLetter = _.find(this.letterData, letter);
+
           if (foundLetter) {
             foundLetter[letter].forEach((element, i) => {
               array[i + 1].value = _.concat(array[i + 1].value, element);
@@ -98,10 +140,16 @@ export default {
             array[0].value = _.concat(array[0].value, fillerArray);
             array[6].value = _.concat(array[6].value, fillerArray);
 
-            // add space
-            array.forEach((element, i) => {
-              array[i].value = _.concat(array[i].value, 0);
-            });
+            // adds space
+            array.reverse();
+            for (
+              let index = lineNumber * 7;
+              index < lineNumber * 7 + 7;
+              index++
+            ) {
+              array[index].value = _.concat(array[index].value, 0);
+            }
+            array.reverse();
           }
         });
       });
@@ -114,6 +162,18 @@ export default {
     }
   },
   methods: {
+    createArrayFiller(lineNumber) {
+      lineNumber = lineNumber * 7;
+      return [
+        { value: [0], id: 0 + lineNumber },
+        { value: [0], id: 1 + lineNumber },
+        { value: [0], id: 2 + lineNumber },
+        { value: [0], id: 3 + lineNumber },
+        { value: [0], id: 4 + lineNumber },
+        { value: [0], id: 5 + lineNumber },
+        { value: [0], id: 6 + lineNumber }
+      ];
+    },
     addLine() {
       var d = new Date();
       var n = d.getTime();
@@ -127,5 +187,13 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style lang="scss" scoped>
+td {
+  background: red;
+  width: 14px;
+  height: 10px;
+  &.on {
+    background: black;
+  }
+}
 </style>
