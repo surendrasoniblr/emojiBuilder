@@ -7,22 +7,39 @@
 
     <!-- <div class="columns">
       <div class="column is-8">{{lineData}}</div>
-    </div> -->
-    {{movies}}
+    </div>-->
 
     <div class="columns">
-      <div class="column is-2">
+      <div class="column is-3">
         <div style="margin-top:auto">
-          <b-field label="Text">
+          <b-field label="Text" label-position="on-border">
             <b-input v-model="emojiText"></b-input>
+            <p class="control">
+              <b-button class="button is-primary">
+
+ <b-icon
+                icon="account"
+                size="is-small">
+            </b-icon>
+
+              </b-button>
+            </p>
           </b-field>
+          <!-- <b-field label="Text">
+            <b-input v-model="emojiText"></b-input>
+          </b-field> -->
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3">
         <div style="margin-top:auto">
-          <b-field label="Background">
+
+          <b-field label="Background" label-position="on-border">
             <b-input v-model="emojiBackground"></b-input>
+            <p class="control">
+              <b-button class="button is-primary">Search</b-button>
+            </p>
           </b-field>
+
         </div>
       </div>
       <div class="column is-2">
@@ -65,8 +82,7 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
-
+import { mapState } from "vuex";
 
 export default {
   name: "HomePage",
@@ -76,7 +92,7 @@ export default {
       lineData: [],
       emojiText: "",
       emojiBackground: "",
-      matrix: [],
+      matrix: []
     };
   },
   computed: {
@@ -152,8 +168,8 @@ export default {
       this.matrix = array;
       return array;
     },
-    ... mapState({
-      letterData: state => state.emojiData.letterData,
+    ...mapState({
+      letterData: state => state.emojiData.letterData
     })
   },
   methods: {
