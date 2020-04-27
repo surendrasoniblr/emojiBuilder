@@ -1,0 +1,1981 @@
+[{
+	"name": "bowtie",
+	"imgUrl": "graphics/emojis/bowtie.png",
+	"code": ":bowtie:",
+	"category": "emoji-people"
+}, {
+	"name": "smile",
+	"imgUrl": "graphics/emojis/smile.png",
+	"code": ":smile:",
+	"category": "emoji-people"
+}, {
+	"name": "simple_smile",
+	"imgUrl": "graphics/emojis/simple_smile.png",
+	"code": ":simple_smile:",
+	"category": "emoji-people"
+}, {
+	"name": "laughing",
+	"imgUrl": "graphics/emojis/laughing.png",
+	"code": ":laughing:",
+	"category": "emoji-people"
+}, {
+	"name": "blush",
+	"imgUrl": "graphics/emojis/blush.png",
+	"code": ":blush:",
+	"category": "emoji-people"
+}, {
+	"name": "smiley",
+	"imgUrl": "graphics/emojis/smiley.png",
+	"code": ":smiley:",
+	"category": "emoji-people"
+}, {
+	"name": "relaxed",
+	"imgUrl": "graphics/emojis/relaxed.png",
+	"code": ":relaxed:",
+	"category": "emoji-people"
+}, {
+	"name": "smirk",
+	"imgUrl": "graphics/emojis/smirk.png",
+	"code": ":smirk:",
+	"category": "emoji-people"
+}, {
+	"name": "heart_eyes",
+	"imgUrl": "graphics/emojis/heart_eyes.png",
+	"code": ":heart_eyes:",
+	"category": "emoji-people"
+}, {
+	"name": "kissing_heart",
+	"imgUrl": "graphics/emojis/kissing_heart.png",
+	"code": ":kissing_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "kissing_closed_eyes",
+	"imgUrl": "graphics/emojis/kissing_closed_eyes.png",
+	"code": ":kissing_closed_eyes:",
+	"category": "emoji-people"
+}, {
+	"name": "flushed",
+	"imgUrl": "graphics/emojis/flushed.png",
+	"code": ":flushed:",
+	"category": "emoji-people"
+}, {
+	"name": "relieved",
+	"imgUrl": "graphics/emojis/relieved.png",
+	"code": ":relieved:",
+	"category": "emoji-people"
+}, {
+	"name": "satisfied",
+	"imgUrl": "graphics/emojis/satisfied.png",
+	"code": ":satisfied:",
+	"category": "emoji-people"
+}, {
+	"name": "grin",
+	"imgUrl": "graphics/emojis/grin.png",
+	"code": ":grin:",
+	"category": "emoji-people"
+}, {
+	"name": "wink",
+	"imgUrl": "graphics/emojis/wink.png",
+	"code": ":wink:",
+	"category": "emoji-people"
+}, {
+	"name": "stuck_out_tongue_winking_eye",
+	"imgUrl": "graphics/emojis/stuck_out_tongue_winking_eye.png",
+	"code": ":stuck_out_tongue_winking_eye:",
+	"category": "emoji-people"
+}, {
+	"name": "stuck_out_tongue_closed_eyes",
+	"imgUrl": "graphics/emojis/stuck_out_tongue_closed_eyes.png",
+	"code": ":stuck_out_tongue_closed_eyes:",
+	"category": "emoji-people"
+}, {
+	"name": "grinning",
+	"imgUrl": "graphics/emojis/grinning.png",
+	"code": ":grinning:",
+	"category": "emoji-people"
+}, {
+	"name": "kissing",
+	"imgUrl": "graphics/emojis/kissing.png",
+	"code": ":kissing:",
+	"category": "emoji-people"
+}, {
+	"name": "kissing_smiling_eyes",
+	"imgUrl": "graphics/emojis/kissing_smiling_eyes.png",
+	"code": ":kissing_smiling_eyes:",
+	"category": "emoji-people"
+}, {
+	"name": "stuck_out_tongue",
+	"imgUrl": "graphics/emojis/stuck_out_tongue.png",
+	"code": ":stuck_out_tongue:",
+	"category": "emoji-people"
+}, {
+	"name": "sleeping",
+	"imgUrl": "graphics/emojis/sleeping.png",
+	"code": ":sleeping:",
+	"category": "emoji-people"
+}, {
+	"name": "worried",
+	"imgUrl": "graphics/emojis/worried.png",
+	"code": ":worried:",
+	"category": "emoji-people"
+}, {
+	"name": "frowning",
+	"imgUrl": "graphics/emojis/frowning.png",
+	"code": ":frowning:",
+	"category": "emoji-people"
+}, {
+	"name": "anguished",
+	"imgUrl": "graphics/emojis/anguished.png",
+	"code": ":anguished:",
+	"category": "emoji-people"
+}, {
+	"name": "open_mouth",
+	"imgUrl": "graphics/emojis/open_mouth.png",
+	"code": ":open_mouth:",
+	"category": "emoji-people"
+}, {
+	"name": "grimacing",
+	"imgUrl": "graphics/emojis/grimacing.png",
+	"code": ":grimacing:",
+	"category": "emoji-people"
+}, {
+	"name": "confused",
+	"imgUrl": "graphics/emojis/confused.png",
+	"code": ":confused:",
+	"category": "emoji-people"
+}, {
+	"name": "hushed",
+	"imgUrl": "graphics/emojis/hushed.png",
+	"code": ":hushed:",
+	"category": "emoji-people"
+}, {
+	"name": "expressionless",
+	"imgUrl": "graphics/emojis/expressionless.png",
+	"code": ":expressionless:",
+	"category": "emoji-people"
+}, {
+	"name": "unamused",
+	"imgUrl": "graphics/emojis/unamused.png",
+	"code": ":unamused:",
+	"category": "emoji-people"
+}, {
+	"name": "sweat_smile",
+	"imgUrl": "graphics/emojis/sweat_smile.png",
+	"code": ":sweat_smile:",
+	"category": "emoji-people"
+}, {
+	"name": "sweat",
+	"imgUrl": "graphics/emojis/sweat.png",
+	"code": ":sweat:",
+	"category": "emoji-people"
+}, {
+	"name": "disappointed_relieved",
+	"imgUrl": "graphics/emojis/disappointed_relieved.png",
+	"code": ":disappointed_relieved:",
+	"category": "emoji-people"
+}, {
+	"name": "weary",
+	"imgUrl": "graphics/emojis/weary.png",
+	"code": ":weary:",
+	"category": "emoji-people"
+}, {
+	"name": "pensive",
+	"imgUrl": "graphics/emojis/pensive.png",
+	"code": ":pensive:",
+	"category": "emoji-people"
+}, {
+	"name": "disappointed",
+	"imgUrl": "graphics/emojis/disappointed.png",
+	"code": ":disappointed:",
+	"category": "emoji-people"
+}, {
+	"name": "confounded",
+	"imgUrl": "graphics/emojis/confounded.png",
+	"code": ":confounded:",
+	"category": "emoji-people"
+}, {
+	"name": "fearful",
+	"imgUrl": "graphics/emojis/fearful.png",
+	"code": ":fearful:",
+	"category": "emoji-people"
+}, {
+	"name": "cold_sweat",
+	"imgUrl": "graphics/emojis/cold_sweat.png",
+	"code": ":cold_sweat:",
+	"category": "emoji-people"
+}, {
+	"name": "persevere",
+	"imgUrl": "graphics/emojis/persevere.png",
+	"code": ":persevere:",
+	"category": "emoji-people"
+}, {
+	"name": "cry",
+	"imgUrl": "graphics/emojis/cry.png",
+	"code": ":cry:",
+	"category": "emoji-people"
+}, {
+	"name": "sob",
+	"imgUrl": "graphics/emojis/sob.png",
+	"code": ":sob:",
+	"category": "emoji-people"
+}, {
+	"name": "joy",
+	"imgUrl": "graphics/emojis/joy.png",
+	"code": ":joy:",
+	"category": "emoji-people"
+}, {
+	"name": "astonished",
+	"imgUrl": "graphics/emojis/astonished.png",
+	"code": ":astonished:",
+	"category": "emoji-people"
+}, {
+	"name": "scream",
+	"imgUrl": "graphics/emojis/scream.png",
+	"code": ":scream:",
+	"category": "emoji-people"
+}, {
+	"name": "neckbeard",
+	"imgUrl": "graphics/emojis/neckbeard.png",
+	"code": ":neckbeard:",
+	"category": "emoji-people"
+}, {
+	"name": "tired_face",
+	"imgUrl": "graphics/emojis/tired_face.png",
+	"code": ":tired_face:",
+	"category": "emoji-people"
+}, {
+	"name": "angry",
+	"imgUrl": "graphics/emojis/angry.png",
+	"code": ":angry:",
+	"category": "emoji-people"
+}, {
+	"name": "rage",
+	"imgUrl": "graphics/emojis/rage.png",
+	"code": ":rage:",
+	"category": "emoji-people"
+}, {
+	"name": "triumph",
+	"imgUrl": "graphics/emojis/triumph.png",
+	"code": ":triumph:",
+	"category": "emoji-people"
+}, {
+	"name": "sleepy",
+	"imgUrl": "graphics/emojis/sleepy.png",
+	"code": ":sleepy:",
+	"category": "emoji-people"
+}, {
+	"name": "yum",
+	"imgUrl": "graphics/emojis/yum.png",
+	"code": ":yum:",
+	"category": "emoji-people"
+}, {
+	"name": "mask",
+	"imgUrl": "graphics/emojis/mask.png",
+	"code": ":mask:",
+	"category": "emoji-people"
+}, {
+	"name": "sunglasses",
+	"imgUrl": "graphics/emojis/sunglasses.png",
+	"code": ":sunglasses:",
+	"category": "emoji-people"
+}, {
+	"name": "dizzy_face",
+	"imgUrl": "graphics/emojis/dizzy_face.png",
+	"code": ":dizzy_face:",
+	"category": "emoji-people"
+}, {
+	"name": "imp",
+	"imgUrl": "graphics/emojis/imp.png",
+	"code": ":imp:",
+	"category": "emoji-people"
+}, {
+	"name": "smiling_imp",
+	"imgUrl": "graphics/emojis/smiling_imp.png",
+	"code": ":smiling_imp:",
+	"category": "emoji-people"
+}, {
+	"name": "neutral_face",
+	"imgUrl": "graphics/emojis/neutral_face.png",
+	"code": ":neutral_face:",
+	"category": "emoji-people"
+}, {
+	"name": "no_mouth",
+	"imgUrl": "graphics/emojis/no_mouth.png",
+	"code": ":no_mouth:",
+	"category": "emoji-people"
+}, {
+	"name": "innocent",
+	"imgUrl": "graphics/emojis/innocent.png",
+	"code": ":innocent:",
+	"category": "emoji-people"
+}, {
+	"name": "alien",
+	"imgUrl": "graphics/emojis/alien.png",
+	"code": ":alien:",
+	"category": "emoji-people"
+}, {
+	"name": "yellow_heart",
+	"imgUrl": "graphics/emojis/yellow_heart.png",
+	"code": ":yellow_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "blue_heart",
+	"imgUrl": "graphics/emojis/blue_heart.png",
+	"code": ":blue_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "purple_heart",
+	"imgUrl": "graphics/emojis/purple_heart.png",
+	"code": ":purple_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "heart",
+	"imgUrl": "graphics/emojis/heart.png",
+	"code": ":heart:",
+	"category": "emoji-people"
+}, {
+	"name": "green_heart",
+	"imgUrl": "graphics/emojis/green_heart.png",
+	"code": ":green_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "broken_heart",
+	"imgUrl": "graphics/emojis/broken_heart.png",
+	"code": ":broken_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "heartbeat",
+	"imgUrl": "graphics/emojis/heartbeat.png",
+	"code": ":heartbeat:",
+	"category": "emoji-people"
+}, {
+	"name": "heartpulse",
+	"imgUrl": "graphics/emojis/heartpulse.png",
+	"code": ":heartpulse:",
+	"category": "emoji-people"
+}, {
+	"name": "two_hearts",
+	"imgUrl": "graphics/emojis/two_hearts.png",
+	"code": ":two_hearts:",
+	"category": "emoji-people"
+}, {
+	"name": "revolving_hearts",
+	"imgUrl": "graphics/emojis/revolving_hearts.png",
+	"code": ":revolving_hearts:",
+	"category": "emoji-people"
+}, {
+	"name": "cupid",
+	"imgUrl": "graphics/emojis/cupid.png",
+	"code": ":cupid:",
+	"category": "emoji-people"
+}, {
+	"name": "sparkling_heart",
+	"imgUrl": "graphics/emojis/sparkling_heart.png",
+	"code": ":sparkling_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "sparkles",
+	"imgUrl": "graphics/emojis/sparkles.png",
+	"code": ":sparkles:",
+	"category": "emoji-people"
+}, {
+	"name": "star",
+	"imgUrl": "graphics/emojis/star.png",
+	"code": ":star:",
+	"category": "emoji-people"
+}, {
+	"name": "star2",
+	"imgUrl": "graphics/emojis/star2.png",
+	"code": ":star2:",
+	"category": "emoji-people"
+}, {
+	"name": "dizzy",
+	"imgUrl": "graphics/emojis/dizzy.png",
+	"code": ":dizzy:",
+	"category": "emoji-people"
+}, {
+	"name": "boom",
+	"imgUrl": "graphics/emojis/boom.png",
+	"code": ":boom:",
+	"category": "emoji-people"
+}, {
+	"name": "collision",
+	"imgUrl": "graphics/emojis/collision.png",
+	"code": ":collision:",
+	"category": "emoji-people"
+}, {
+	"name": "anger",
+	"imgUrl": "graphics/emojis/anger.png",
+	"code": ":anger:",
+	"category": "emoji-people"
+}, {
+	"name": "exclamation",
+	"imgUrl": "graphics/emojis/exclamation.png",
+	"code": ":exclamation:",
+	"category": "emoji-people"
+}, {
+	"name": "question",
+	"imgUrl": "graphics/emojis/question.png",
+	"code": ":question:",
+	"category": "emoji-people"
+}, {
+	"name": "grey_exclamation",
+	"imgUrl": "graphics/emojis/grey_exclamation.png",
+	"code": ":grey_exclamation:",
+	"category": "emoji-people"
+}, {
+	"name": "grey_question",
+	"imgUrl": "graphics/emojis/grey_question.png",
+	"code": ":grey_question:",
+	"category": "emoji-people"
+}, {
+	"name": "zzz",
+	"imgUrl": "graphics/emojis/zzz.png",
+	"code": ":zzz:",
+	"category": "emoji-people"
+}, {
+	"name": "dash",
+	"imgUrl": "graphics/emojis/dash.png",
+	"code": ":dash:",
+	"category": "emoji-people"
+}, {
+	"name": "sweat_drops",
+	"imgUrl": "graphics/emojis/sweat_drops.png",
+	"code": ":sweat_drops:",
+	"category": "emoji-people"
+}, {
+	"name": "notes",
+	"imgUrl": "graphics/emojis/notes.png",
+	"code": ":notes:",
+	"category": "emoji-people"
+}, {
+	"name": "musical_note",
+	"imgUrl": "graphics/emojis/musical_note.png",
+	"code": ":musical_note:",
+	"category": "emoji-people"
+}, {
+	"name": "fire",
+	"imgUrl": "graphics/emojis/fire.png",
+	"code": ":fire:",
+	"category": "emoji-people"
+}, {
+	"name": "hankey",
+	"imgUrl": "graphics/emojis/hankey.png",
+	"code": ":hankey:",
+	"category": "emoji-people"
+}, {
+	"name": "poop",
+	"imgUrl": "graphics/emojis/poop.png",
+	"code": ":poop:",
+	"category": "emoji-people"
+}, {
+	"name": "shit",
+	"imgUrl": "graphics/emojis/shit.png",
+	"code": ":shit:",
+	"category": "emoji-people"
+}, {
+	"name": "+1",
+	"imgUrl": "graphics/emojis/plus1.png",
+	"code": ":+1:",
+	"category": "emoji-people"
+}, {
+	"name": "thumbsup",
+	"imgUrl": "graphics/emojis/thumbsup.png",
+	"code": ":thumbsup:",
+	"category": "emoji-people"
+}, {
+	"name": "-1",
+	"imgUrl": "graphics/emojis/-1.png",
+	"code": ":-1:",
+	"category": "emoji-people"
+}, {
+	"name": "thumbsdown",
+	"imgUrl": "graphics/emojis/thumbsdown.png",
+	"code": ":thumbsdown:",
+	"category": "emoji-people"
+}, {
+	"name": "ok_hand",
+	"imgUrl": "graphics/emojis/ok_hand.png",
+	"code": ":ok_hand:",
+	"category": "emoji-people"
+}, {
+	"name": "punch",
+	"imgUrl": "graphics/emojis/punch.png",
+	"code": ":punch:",
+	"category": "emoji-people"
+}, {
+	"name": "facepunch",
+	"imgUrl": "graphics/emojis/facepunch.png",
+	"code": ":facepunch:",
+	"category": "emoji-people"
+}, {
+	"name": "fist",
+	"imgUrl": "graphics/emojis/fist.png",
+	"code": ":fist:",
+	"category": "emoji-people"
+}, {
+	"name": "v",
+	"imgUrl": "graphics/emojis/v.png",
+	"code": ":v:",
+	"category": "emoji-people"
+}, {
+	"name": "wave",
+	"imgUrl": "graphics/emojis/wave.png",
+	"code": ":wave:",
+	"category": "emoji-people"
+}, {
+	"name": "hand",
+	"imgUrl": "graphics/emojis/hand.png",
+	"code": ":hand:",
+	"category": "emoji-people"
+}, {
+	"name": "raised_hand",
+	"imgUrl": "graphics/emojis/raised_hand.png",
+	"code": ":raised_hand:",
+	"category": "emoji-people"
+}, {
+	"name": "open_hands",
+	"imgUrl": "graphics/emojis/open_hands.png",
+	"code": ":open_hands:",
+	"category": "emoji-people"
+}, {
+	"name": "point_up",
+	"imgUrl": "graphics/emojis/point_up.png",
+	"code": ":point_up:",
+	"category": "emoji-people"
+}, {
+	"name": "point_down",
+	"imgUrl": "graphics/emojis/point_down.png",
+	"code": ":point_down:",
+	"category": "emoji-people"
+}, {
+	"name": "point_left",
+	"imgUrl": "graphics/emojis/point_left.png",
+	"code": ":point_left:",
+	"category": "emoji-people"
+}, {
+	"name": "point_right",
+	"imgUrl": "graphics/emojis/point_right.png",
+	"code": ":point_right:",
+	"category": "emoji-people"
+}, {
+	"name": "raised_hands",
+	"imgUrl": "graphics/emojis/raised_hands.png",
+	"code": ":raised_hands:",
+	"category": "emoji-people"
+}, {
+	"name": "pray",
+	"imgUrl": "graphics/emojis/pray.png",
+	"code": ":pray:",
+	"category": "emoji-people"
+}, {
+	"name": "point_up_2",
+	"imgUrl": "graphics/emojis/point_up_2.png",
+	"code": ":point_up_2:",
+	"category": "emoji-people"
+}, {
+	"name": "clap",
+	"imgUrl": "graphics/emojis/clap.png",
+	"code": ":clap:",
+	"category": "emoji-people"
+}, {
+	"name": "muscle",
+	"imgUrl": "graphics/emojis/muscle.png",
+	"code": ":muscle:",
+	"category": "emoji-people"
+}, {
+	"name": "metal",
+	"imgUrl": "graphics/emojis/metal.png",
+	"code": ":metal:",
+	"category": "emoji-people"
+}, {
+	"name": "fu",
+	"imgUrl": "graphics/emojis/fu.png",
+	"code": ":fu:",
+	"category": "emoji-people"
+}, {
+	"name": "runner",
+	"imgUrl": "graphics/emojis/runner.png",
+	"code": ":runner:",
+	"category": "emoji-people"
+}, {
+	"name": "running",
+	"imgUrl": "graphics/emojis/running.png",
+	"code": ":running:",
+	"category": "emoji-people"
+}, {
+	"name": "couple",
+	"imgUrl": "graphics/emojis/couple.png",
+	"code": ":couple:",
+	"category": "emoji-people"
+}, {
+	"name": "family",
+	"imgUrl": "graphics/emojis/family.png",
+	"code": ":family:",
+	"category": "emoji-people"
+}, {
+	"name": "two_men_holding_hands",
+	"imgUrl": "graphics/emojis/two_men_holding_hands.png",
+	"code": ":two_men_holding_hands:",
+	"category": "emoji-people"
+}, {
+	"name": "two_women_holding_hands",
+	"imgUrl": "graphics/emojis/two_women_holding_hands.png",
+	"code": ":two_women_holding_hands:",
+	"category": "emoji-people"
+}, {
+	"name": "dancer",
+	"imgUrl": "graphics/emojis/dancer.png",
+	"code": ":dancer:",
+	"category": "emoji-people"
+}, {
+	"name": "dancers",
+	"imgUrl": "graphics/emojis/dancers.png",
+	"code": ":dancers:",
+	"category": "emoji-people"
+}, {
+	"name": "ok_woman",
+	"imgUrl": "graphics/emojis/ok_woman.png",
+	"code": ":ok_woman:",
+	"category": "emoji-people"
+}, {
+	"name": "no_good",
+	"imgUrl": "graphics/emojis/no_good.png",
+	"code": ":no_good:",
+	"category": "emoji-people"
+}, {
+	"name": "information_desk_person",
+	"imgUrl": "graphics/emojis/information_desk_person.png",
+	"code": ":information_desk_person:",
+	"category": "emoji-people"
+}, {
+	"name": "raising_hand",
+	"imgUrl": "graphics/emojis/raising_hand.png",
+	"code": ":raising_hand:",
+	"category": "emoji-people"
+}, {
+	"name": "bride_with_veil",
+	"imgUrl": "graphics/emojis/bride_with_veil.png",
+	"code": ":bride_with_veil:",
+	"category": "emoji-people"
+}, {
+	"name": "person_with_pouting_face",
+	"imgUrl": "graphics/emojis/person_with_pouting_face.png",
+	"code": ":person_with_pouting_face:",
+	"category": "emoji-people"
+}, {
+	"name": "person_frowning",
+	"imgUrl": "graphics/emojis/person_frowning.png",
+	"code": ":person_frowning:",
+	"category": "emoji-people"
+}, {
+	"name": "bow",
+	"imgUrl": "graphics/emojis/bow.png",
+	"code": ":bow:",
+	"category": "emoji-people"
+}, {
+	"name": "couplekiss",
+	"imgUrl": "graphics/emojis/couplekiss.png",
+	"code": ":couplekiss:",
+	"category": "emoji-people"
+}, {
+	"name": "couple_with_heart",
+	"imgUrl": "graphics/emojis/couple_with_heart.png",
+	"code": ":couple_with_heart:",
+	"category": "emoji-people"
+}, {
+	"name": "massage",
+	"imgUrl": "graphics/emojis/massage.png",
+	"code": ":massage:",
+	"category": "emoji-people"
+}, {
+	"name": "haircut",
+	"imgUrl": "graphics/emojis/haircut.png",
+	"code": ":haircut:",
+	"category": "emoji-people"
+}, {
+	"name": "nail_care",
+	"imgUrl": "graphics/emojis/nail_care.png",
+	"code": ":nail_care:",
+	"category": "emoji-people"
+}, {
+	"name": "boy",
+	"imgUrl": "graphics/emojis/boy.png",
+	"code": ":boy:",
+	"category": "emoji-people"
+}, {
+	"name": "girl",
+	"imgUrl": "graphics/emojis/girl.png",
+	"code": ":girl:",
+	"category": "emoji-people"
+}, {
+	"name": "woman",
+	"imgUrl": "graphics/emojis/woman.png",
+	"code": ":woman:",
+	"category": "emoji-people"
+}, {
+	"name": "man",
+	"imgUrl": "graphics/emojis/man.png",
+	"code": ":man:",
+	"category": "emoji-people"
+}, {
+	"name": "baby",
+	"imgUrl": "graphics/emojis/baby.png",
+	"code": ":baby:",
+	"category": "emoji-people"
+}, {
+	"name": "older_woman",
+	"imgUrl": "graphics/emojis/older_woman.png",
+	"code": ":older_woman:",
+	"category": "emoji-people"
+}, {
+	"name": "older_man",
+	"imgUrl": "graphics/emojis/older_man.png",
+	"code": ":older_man:",
+	"category": "emoji-people"
+}, {
+	"name": "person_with_blond_hair",
+	"imgUrl": "graphics/emojis/person_with_blond_hair.png",
+	"code": ":person_with_blond_hair:",
+	"category": "emoji-people"
+}, {
+	"name": "man_with_gua_pi_mao",
+	"imgUrl": "graphics/emojis/man_with_gua_pi_mao.png",
+	"code": ":man_with_gua_pi_mao:",
+	"category": "emoji-people"
+}, {
+	"name": "man_with_turban",
+	"imgUrl": "graphics/emojis/man_with_turban.png",
+	"code": ":man_with_turban:",
+	"category": "emoji-people"
+}, {
+	"name": "construction_worker",
+	"imgUrl": "graphics/emojis/construction_worker.png",
+	"code": ":construction_worker:",
+	"category": "emoji-people"
+}, {
+	"name": "cop",
+	"imgUrl": "graphics/emojis/cop.png",
+	"code": ":cop:",
+	"category": "emoji-people"
+}, {
+	"name": "angel",
+	"imgUrl": "graphics/emojis/angel.png",
+	"code": ":angel:",
+	"category": "emoji-people"
+}, {
+	"name": "princess",
+	"imgUrl": "graphics/emojis/princess.png",
+	"code": ":princess:",
+	"category": "emoji-people"
+}, {
+	"name": "smiley_cat",
+	"imgUrl": "graphics/emojis/smiley_cat.png",
+	"code": ":smiley_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "smile_cat",
+	"imgUrl": "graphics/emojis/smile_cat.png",
+	"code": ":smile_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "heart_eyes_cat",
+	"imgUrl": "graphics/emojis/heart_eyes_cat.png",
+	"code": ":heart_eyes_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "kissing_cat",
+	"imgUrl": "graphics/emojis/kissing_cat.png",
+	"code": ":kissing_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "smirk_cat",
+	"imgUrl": "graphics/emojis/smirk_cat.png",
+	"code": ":smirk_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "scream_cat",
+	"imgUrl": "graphics/emojis/scream_cat.png",
+	"code": ":scream_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "crying_cat_face",
+	"imgUrl": "graphics/emojis/crying_cat_face.png",
+	"code": ":crying_cat_face:",
+	"category": "emoji-people"
+}, {
+	"name": "joy_cat",
+	"imgUrl": "graphics/emojis/joy_cat.png",
+	"code": ":joy_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "pouting_cat",
+	"imgUrl": "graphics/emojis/pouting_cat.png",
+	"code": ":pouting_cat:",
+	"category": "emoji-people"
+}, {
+	"name": "japanese_ogre",
+	"imgUrl": "graphics/emojis/japanese_ogre.png",
+	"code": ":japanese_ogre:",
+	"category": "emoji-people"
+}, {
+	"name": "japanese_goblin",
+	"imgUrl": "graphics/emojis/japanese_goblin.png",
+	"code": ":japanese_goblin:",
+	"category": "emoji-people"
+}, {
+	"name": "see_no_evil",
+	"imgUrl": "graphics/emojis/see_no_evil.png",
+	"code": ":see_no_evil:",
+	"category": "emoji-people"
+}, {
+	"name": "hear_no_evil",
+	"imgUrl": "graphics/emojis/hear_no_evil.png",
+	"code": ":hear_no_evil:",
+	"category": "emoji-people"
+}, {
+	"name": "speak_no_evil",
+	"imgUrl": "graphics/emojis/speak_no_evil.png",
+	"code": ":speak_no_evil:",
+	"category": "emoji-people"
+}, {
+	"name": "guardsman",
+	"imgUrl": "graphics/emojis/guardsman.png",
+	"code": ":guardsman:",
+	"category": "emoji-people"
+}, {
+	"name": "skull",
+	"imgUrl": "graphics/emojis/skull.png",
+	"code": ":skull:",
+	"category": "emoji-people"
+}, {
+	"name": "feet",
+	"imgUrl": "graphics/emojis/feet.png",
+	"code": ":feet:",
+	"category": "emoji-people"
+}, {
+	"name": "lips",
+	"imgUrl": "graphics/emojis/lips.png",
+	"code": ":lips:",
+	"category": "emoji-people"
+}, {
+	"name": "kiss",
+	"imgUrl": "graphics/emojis/kiss.png",
+	"code": ":kiss:",
+	"category": "emoji-people"
+}, {
+	"name": "droplet",
+	"imgUrl": "graphics/emojis/droplet.png",
+	"code": ":droplet:",
+	"category": "emoji-people"
+}, {
+	"name": "ear",
+	"imgUrl": "graphics/emojis/ear.png",
+	"code": ":ear:",
+	"category": "emoji-people"
+}, {
+	"name": "eyes",
+	"imgUrl": "graphics/emojis/eyes.png",
+	"code": ":eyes:",
+	"category": "emoji-people"
+}, {
+	"name": "nose",
+	"imgUrl": "graphics/emojis/nose.png",
+	"code": ":nose:",
+	"category": "emoji-people"
+}, {
+	"name": "tongue",
+	"imgUrl": "graphics/emojis/tongue.png",
+	"code": ":tongue:",
+	"category": "emoji-people"
+}, {
+	"name": "love_letter",
+	"imgUrl": "graphics/emojis/love_letter.png",
+	"code": ":love_letter:",
+	"category": "emoji-people"
+}, {
+	"name": "bust_in_silhouette",
+	"imgUrl": "graphics/emojis/bust_in_silhouette.png",
+	"code": ":bust_in_silhouette:",
+	"category": "emoji-people"
+}, {
+	"name": "busts_in_silhouette",
+	"imgUrl": "graphics/emojis/busts_in_silhouette.png",
+	"code": ":busts_in_silhouette:",
+	"category": "emoji-people"
+}, {
+	"name": "speech_balloon",
+	"imgUrl": "graphics/emojis/speech_balloon.png",
+	"code": ":speech_balloon:",
+	"category": "emoji-people"
+}, {
+	"name": "thought_balloon",
+	"imgUrl": "graphics/emojis/thought_balloon.png",
+	"code": ":thought_balloon:",
+	"category": "emoji-people"
+}, {
+	"name": "feelsgood",
+	"imgUrl": "graphics/emojis/feelsgood.png",
+	"code": ":feelsgood:",
+	"category": "emoji-people"
+}, {
+	"name": "finnadie",
+	"imgUrl": "graphics/emojis/finnadie.png",
+	"code": ":finnadie:",
+	"category": "emoji-people"
+}, {
+	"name": "goberserk",
+	"imgUrl": "graphics/emojis/goberserk.png",
+	"code": ":goberserk:",
+	"category": "emoji-people"
+}, {
+	"name": "godmode",
+	"imgUrl": "graphics/emojis/godmode.png",
+	"code": ":godmode:",
+	"category": "emoji-people"
+}, {
+	"name": "hurtrealbad",
+	"imgUrl": "graphics/emojis/hurtrealbad.png",
+	"code": ":hurtrealbad:",
+	"category": "emoji-people"
+}, {
+	"name": "rage1",
+	"imgUrl": "graphics/emojis/rage1.png",
+	"code": ":rage1:",
+	"category": "emoji-people"
+}, {
+	"name": "rage2",
+	"imgUrl": "graphics/emojis/rage2.png",
+	"code": ":rage2:",
+	"category": "emoji-people"
+}, {
+	"name": "rage3",
+	"imgUrl": "graphics/emojis/rage3.png",
+	"code": ":rage3:",
+	"category": "emoji-people"
+}, {
+	"name": "rage4",
+	"imgUrl": "graphics/emojis/rage4.png",
+	"code": ":rage4:",
+	"category": "emoji-people"
+}, {
+	"name": "suspect",
+	"imgUrl": "graphics/emojis/suspect.png",
+	"code": ":suspect:",
+	"category": "emoji-people"
+}, {
+	"name": "trollface",
+	"imgUrl": "graphics/emojis/trollface.png",
+	"code": ":trollface:",
+	"category": "emoji-people"
+}, {
+	"name": "one",
+	"imgUrl": "graphics/emojis/one.png",
+	"code": ":one:",
+	"category": "emoji-symbols"
+}, {
+	"name": "two",
+	"imgUrl": "graphics/emojis/two.png",
+	"code": ":two:",
+	"category": "emoji-symbols"
+}, {
+	"name": "three",
+	"imgUrl": "graphics/emojis/three.png",
+	"code": ":three:",
+	"category": "emoji-symbols"
+}, {
+	"name": "four",
+	"imgUrl": "graphics/emojis/four.png",
+	"code": ":four:",
+	"category": "emoji-symbols"
+}, {
+	"name": "five",
+	"imgUrl": "graphics/emojis/five.png",
+	"code": ":five:",
+	"category": "emoji-symbols"
+}, {
+	"name": "six",
+	"imgUrl": "graphics/emojis/six.png",
+	"code": ":six:",
+	"category": "emoji-symbols"
+}, {
+	"name": "seven",
+	"imgUrl": "graphics/emojis/seven.png",
+	"code": ":seven:",
+	"category": "emoji-symbols"
+}, {
+	"name": "eight",
+	"imgUrl": "graphics/emojis/eight.png",
+	"code": ":eight:",
+	"category": "emoji-symbols"
+}, {
+	"name": "nine",
+	"imgUrl": "graphics/emojis/nine.png",
+	"code": ":nine:",
+	"category": "emoji-symbols"
+}, {
+	"name": "keycap_ten",
+	"imgUrl": "graphics/emojis/keycap_ten.png",
+	"code": ":keycap_ten:",
+	"category": "emoji-symbols"
+}, {
+	"name": "1234",
+	"imgUrl": "graphics/emojis/1234.png",
+	"code": ":1234:",
+	"category": "emoji-symbols"
+}, {
+	"name": "zero",
+	"imgUrl": "graphics/emojis/zero.png",
+	"code": ":zero:",
+	"category": "emoji-symbols"
+}, {
+	"name": "hash",
+	"imgUrl": "graphics/emojis/hash.png",
+	"code": ":hash:",
+	"category": "emoji-symbols"
+}, {
+	"name": "symbols",
+	"imgUrl": "graphics/emojis/symbols.png",
+	"code": ":symbols:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_backward",
+	"imgUrl": "graphics/emojis/arrow_backward.png",
+	"code": ":arrow_backward:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_down",
+	"imgUrl": "graphics/emojis/arrow_down.png",
+	"code": ":arrow_down:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_forward",
+	"imgUrl": "graphics/emojis/arrow_forward.png",
+	"code": ":arrow_forward:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_left",
+	"imgUrl": "graphics/emojis/arrow_left.png",
+	"code": ":arrow_left:",
+	"category": "emoji-symbols"
+}, {
+	"name": "capital_abcd",
+	"imgUrl": "graphics/emojis/capital_abcd.png",
+	"code": ":capital_abcd:",
+	"category": "emoji-symbols"
+}, {
+	"name": "abcd",
+	"imgUrl": "graphics/emojis/abcd.png",
+	"code": ":abcd:",
+	"category": "emoji-symbols"
+}, {
+	"name": "abc",
+	"imgUrl": "graphics/emojis/abc.png",
+	"code": ":abc:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_lower_left",
+	"imgUrl": "graphics/emojis/arrow_lower_left.png",
+	"code": ":arrow_lower_left:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_lower_right",
+	"imgUrl": "graphics/emojis/arrow_lower_right.png",
+	"code": ":arrow_lower_right:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_right",
+	"imgUrl": "graphics/emojis/arrow_right.png",
+	"code": ":arrow_right:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_up",
+	"imgUrl": "graphics/emojis/arrow_up.png",
+	"code": ":arrow_up:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_upper_left",
+	"imgUrl": "graphics/emojis/arrow_upper_left.png",
+	"code": ":arrow_upper_left:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_upper_right",
+	"imgUrl": "graphics/emojis/arrow_upper_right.png",
+	"code": ":arrow_upper_right:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_double_down",
+	"imgUrl": "graphics/emojis/arrow_double_down.png",
+	"code": ":arrow_double_down:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_double_up",
+	"imgUrl": "graphics/emojis/arrow_double_up.png",
+	"code": ":arrow_double_up:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_down_small",
+	"imgUrl": "graphics/emojis/arrow_down_small.png",
+	"code": ":arrow_down_small:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_heading_down",
+	"imgUrl": "graphics/emojis/arrow_heading_down.png",
+	"code": ":arrow_heading_down:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_heading_up",
+	"imgUrl": "graphics/emojis/arrow_heading_up.png",
+	"code": ":arrow_heading_up:",
+	"category": "emoji-symbols"
+}, {
+	"name": "leftwards_arrow_with_hook",
+	"imgUrl": "graphics/emojis/leftwards_arrow_with_hook.png",
+	"code": ":leftwards_arrow_with_hook:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_right_hook",
+	"imgUrl": "graphics/emojis/arrow_right_hook.png",
+	"code": ":arrow_right_hook:",
+	"category": "emoji-symbols"
+}, {
+	"name": "left_right_arrow",
+	"imgUrl": "graphics/emojis/left_right_arrow.png",
+	"code": ":left_right_arrow:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_up_down",
+	"imgUrl": "graphics/emojis/arrow_up_down.png",
+	"code": ":arrow_up_down:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrow_up_small",
+	"imgUrl": "graphics/emojis/arrow_up_small.png",
+	"code": ":arrow_up_small:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrows_clockwise",
+	"imgUrl": "graphics/emojis/arrows_clockwise.png",
+	"code": ":arrows_clockwise:",
+	"category": "emoji-symbols"
+}, {
+	"name": "arrows_counterclockwise",
+	"imgUrl": "graphics/emojis/arrows_counterclockwise.png",
+	"code": ":arrows_counterclockwise:",
+	"category": "emoji-symbols"
+}, {
+	"name": "rewind",
+	"imgUrl": "graphics/emojis/rewind.png",
+	"code": ":rewind:",
+	"category": "emoji-symbols"
+}, {
+	"name": "fast_forward",
+	"imgUrl": "graphics/emojis/fast_forward.png",
+	"code": ":fast_forward:",
+	"category": "emoji-symbols"
+}, {
+	"name": "information_source",
+	"imgUrl": "graphics/emojis/information_source.png",
+	"code": ":information_source:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ok",
+	"imgUrl": "graphics/emojis/ok.png",
+	"code": ":ok:",
+	"category": "emoji-symbols"
+}, {
+	"name": "twisted_rightwards_arrows",
+	"imgUrl": "graphics/emojis/twisted_rightwards_arrows.png",
+	"code": ":twisted_rightwards_arrows:",
+	"category": "emoji-symbols"
+}, {
+	"name": "repeat",
+	"imgUrl": "graphics/emojis/repeat.png",
+	"code": ":repeat:",
+	"category": "emoji-symbols"
+}, {
+	"name": "repeat_one",
+	"imgUrl": "graphics/emojis/repeat_one.png",
+	"code": ":repeat_one:",
+	"category": "emoji-symbols"
+}, {
+	"name": "new",
+	"imgUrl": "graphics/emojis/new.png",
+	"code": ":new:",
+	"category": "emoji-symbols"
+}, {
+	"name": "top",
+	"imgUrl": "graphics/emojis/top.png",
+	"code": ":top:",
+	"category": "emoji-symbols"
+}, {
+	"name": "up",
+	"imgUrl": "graphics/emojis/up.png",
+	"code": ":up:",
+	"category": "emoji-symbols"
+}, {
+	"name": "cool",
+	"imgUrl": "graphics/emojis/cool.png",
+	"code": ":cool:",
+	"category": "emoji-symbols"
+}, {
+	"name": "free",
+	"imgUrl": "graphics/emojis/free.png",
+	"code": ":free:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ng",
+	"imgUrl": "graphics/emojis/ng.png",
+	"code": ":ng:",
+	"category": "emoji-symbols"
+}, {
+	"name": "cinema",
+	"imgUrl": "graphics/emojis/cinema.png",
+	"code": ":cinema:",
+	"category": "emoji-symbols"
+}, {
+	"name": "koko",
+	"imgUrl": "graphics/emojis/koko.png",
+	"code": ":koko:",
+	"category": "emoji-symbols"
+}, {
+	"name": "signal_strength",
+	"imgUrl": "graphics/emojis/signal_strength.png",
+	"code": ":signal_strength:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u5272",
+	"imgUrl": "graphics/emojis/u5272.png",
+	"code": ":u5272:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u5408",
+	"imgUrl": "graphics/emojis/u5408.png",
+	"code": ":u5408:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u55b6",
+	"imgUrl": "graphics/emojis/u55b6.png",
+	"code": ":u55b6:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u6307",
+	"imgUrl": "graphics/emojis/u6307.png",
+	"code": ":u6307:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u6708",
+	"imgUrl": "graphics/emojis/u6708.png",
+	"code": ":u6708:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u6709",
+	"imgUrl": "graphics/emojis/u6709.png",
+	"code": ":u6709:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u6e80",
+	"imgUrl": "graphics/emojis/u6e80.png",
+	"code": ":u6e80:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u7121",
+	"imgUrl": "graphics/emojis/u7121.png",
+	"code": ":u7121:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u7533",
+	"imgUrl": "graphics/emojis/u7533.png",
+	"code": ":u7533:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u7a7a",
+	"imgUrl": "graphics/emojis/u7a7a.png",
+	"code": ":u7a7a:",
+	"category": "emoji-symbols"
+}, {
+	"name": "u7981",
+	"imgUrl": "graphics/emojis/u7981.png",
+	"code": ":u7981:",
+	"category": "emoji-symbols"
+}, {
+	"name": "sa",
+	"imgUrl": "graphics/emojis/sa.png",
+	"code": ":sa:",
+	"category": "emoji-symbols"
+}, {
+	"name": "restroom",
+	"imgUrl": "graphics/emojis/restroom.png",
+	"code": ":restroom:",
+	"category": "emoji-symbols"
+}, {
+	"name": "mens",
+	"imgUrl": "graphics/emojis/mens.png",
+	"code": ":mens:",
+	"category": "emoji-symbols"
+}, {
+	"name": "womens",
+	"imgUrl": "graphics/emojis/womens.png",
+	"code": ":womens:",
+	"category": "emoji-symbols"
+}, {
+	"name": "baby_symbol",
+	"imgUrl": "graphics/emojis/baby_symbol.png",
+	"code": ":baby_symbol:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_smoking",
+	"imgUrl": "graphics/emojis/no_smoking.png",
+	"code": ":no_smoking:",
+	"category": "emoji-symbols"
+}, {
+	"name": "parking",
+	"imgUrl": "graphics/emojis/parking.png",
+	"code": ":parking:",
+	"category": "emoji-symbols"
+}, {
+	"name": "wheelchair",
+	"imgUrl": "graphics/emojis/wheelchair.png",
+	"code": ":wheelchair:",
+	"category": "emoji-symbols"
+}, {
+	"name": "metro",
+	"imgUrl": "graphics/emojis/metro.png",
+	"code": ":metro:",
+	"category": "emoji-symbols"
+}, {
+	"name": "baggage_claim",
+	"imgUrl": "graphics/emojis/baggage_claim.png",
+	"code": ":baggage_claim:",
+	"category": "emoji-symbols"
+}, {
+	"name": "accept",
+	"imgUrl": "graphics/emojis/accept.png",
+	"code": ":accept:",
+	"category": "emoji-symbols"
+}, {
+	"name": "wc",
+	"imgUrl": "graphics/emojis/wc.png",
+	"code": ":wc:",
+	"category": "emoji-symbols"
+}, {
+	"name": "potable_water",
+	"imgUrl": "graphics/emojis/potable_water.png",
+	"code": ":potable_water:",
+	"category": "emoji-symbols"
+}, {
+	"name": "put_litter_in_its_place",
+	"imgUrl": "graphics/emojis/put_litter_in_its_place.png",
+	"code": ":put_litter_in_its_place:",
+	"category": "emoji-symbols"
+}, {
+	"name": "secret",
+	"imgUrl": "graphics/emojis/secret.png",
+	"code": ":secret:",
+	"category": "emoji-symbols"
+}, {
+	"name": "congratulations",
+	"imgUrl": "graphics/emojis/congratulations.png",
+	"code": ":congratulations:",
+	"category": "emoji-symbols"
+}, {
+	"name": "m",
+	"imgUrl": "graphics/emojis/m.png",
+	"code": ":m:",
+	"category": "emoji-symbols"
+}, {
+	"name": "passport_control",
+	"imgUrl": "graphics/emojis/passport_control.png",
+	"code": ":passport_control:",
+	"category": "emoji-symbols"
+}, {
+	"name": "left_luggage",
+	"imgUrl": "graphics/emojis/left_luggage.png",
+	"code": ":left_luggage:",
+	"category": "emoji-symbols"
+}, {
+	"name": "customs",
+	"imgUrl": "graphics/emojis/customs.png",
+	"code": ":customs:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ideograph_advantage",
+	"imgUrl": "graphics/emojis/ideograph_advantage.png",
+	"code": ":ideograph_advantage:",
+	"category": "emoji-symbols"
+}, {
+	"name": "cl",
+	"imgUrl": "graphics/emojis/cl.png",
+	"code": ":cl:",
+	"category": "emoji-symbols"
+}, {
+	"name": "sos",
+	"imgUrl": "graphics/emojis/sos.png",
+	"code": ":sos:",
+	"category": "emoji-symbols"
+}, {
+	"name": "id",
+	"imgUrl": "graphics/emojis/id.png",
+	"code": ":id:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_entry_sign",
+	"imgUrl": "graphics/emojis/no_entry_sign.png",
+	"code": ":no_entry_sign:",
+	"category": "emoji-symbols"
+}, {
+	"name": "underage",
+	"imgUrl": "graphics/emojis/underage.png",
+	"code": ":underage:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_mobile_phones",
+	"imgUrl": "graphics/emojis/no_mobile_phones.png",
+	"code": ":no_mobile_phones:",
+	"category": "emoji-symbols"
+}, {
+	"name": "do_not_litter",
+	"imgUrl": "graphics/emojis/do_not_litter.png",
+	"code": ":do_not_litter:",
+	"category": "emoji-symbols"
+}, {
+	"name": "non-potable_water",
+	"imgUrl": "graphics/emojis/non-potable_water.png",
+	"code": ":non-potable_water:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_bicycles",
+	"imgUrl": "graphics/emojis/no_bicycles.png",
+	"code": ":no_bicycles:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_pedestrians",
+	"imgUrl": "graphics/emojis/no_pedestrians.png",
+	"code": ":no_pedestrians:",
+	"category": "emoji-symbols"
+}, {
+	"name": "children_crossing",
+	"imgUrl": "graphics/emojis/children_crossing.png",
+	"code": ":children_crossing:",
+	"category": "emoji-symbols"
+}, {
+	"name": "no_entry",
+	"imgUrl": "graphics/emojis/no_entry.png",
+	"code": ":no_entry:",
+	"category": "emoji-symbols"
+}, {
+	"name": "eight_spoked_asterisk",
+	"imgUrl": "graphics/emojis/eight_spoked_asterisk.png",
+	"code": ":eight_spoked_asterisk:",
+	"category": "emoji-symbols"
+}, {
+	"name": "sparkle",
+	"imgUrl": "graphics/emojis/sparkle.png",
+	"code": ":sparkle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "eight_pointed_black_star",
+	"imgUrl": "graphics/emojis/eight_pointed_black_star.png",
+	"code": ":eight_pointed_black_star:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heart_decoration",
+	"imgUrl": "graphics/emojis/heart_decoration.png",
+	"code": ":heart_decoration:",
+	"category": "emoji-symbols"
+}, {
+	"name": "vs",
+	"imgUrl": "graphics/emojis/vs.png",
+	"code": ":vs:",
+	"category": "emoji-symbols"
+}, {
+	"name": "vibration_mode",
+	"imgUrl": "graphics/emojis/vibration_mode.png",
+	"code": ":vibration_mode:",
+	"category": "emoji-symbols"
+}, {
+	"name": "mobile_phone_off",
+	"imgUrl": "graphics/emojis/mobile_phone_off.png",
+	"code": ":mobile_phone_off:",
+	"category": "emoji-symbols"
+}, {
+	"name": "chart",
+	"imgUrl": "graphics/emojis/chart.png",
+	"code": ":chart:",
+	"category": "emoji-symbols"
+}, {
+	"name": "currency_exchange",
+	"imgUrl": "graphics/emojis/currency_exchange.png",
+	"code": ":currency_exchange:",
+	"category": "emoji-symbols"
+}, {
+	"name": "aries",
+	"imgUrl": "graphics/emojis/aries.png",
+	"code": ":aries:",
+	"category": "emoji-symbols"
+}, {
+	"name": "taurus",
+	"imgUrl": "graphics/emojis/taurus.png",
+	"code": ":taurus:",
+	"category": "emoji-symbols"
+}, {
+	"name": "gemini",
+	"imgUrl": "graphics/emojis/gemini.png",
+	"code": ":gemini:",
+	"category": "emoji-symbols"
+}, {
+	"name": "cancer",
+	"imgUrl": "graphics/emojis/cancer.png",
+	"code": ":cancer:",
+	"category": "emoji-symbols"
+}, {
+	"name": "leo",
+	"imgUrl": "graphics/emojis/leo.png",
+	"code": ":leo:",
+	"category": "emoji-symbols"
+}, {
+	"name": "virgo",
+	"imgUrl": "graphics/emojis/virgo.png",
+	"code": ":virgo:",
+	"category": "emoji-symbols"
+}, {
+	"name": "libra",
+	"imgUrl": "graphics/emojis/libra.png",
+	"code": ":libra:",
+	"category": "emoji-symbols"
+}, {
+	"name": "scorpius",
+	"imgUrl": "graphics/emojis/scorpius.png",
+	"code": ":scorpius:",
+	"category": "emoji-symbols"
+}, {
+	"name": "sagittarius",
+	"imgUrl": "graphics/emojis/sagittarius.png",
+	"code": ":sagittarius:",
+	"category": "emoji-symbols"
+}, {
+	"name": "capricorn",
+	"imgUrl": "graphics/emojis/capricorn.png",
+	"code": ":capricorn:",
+	"category": "emoji-symbols"
+}, {
+	"name": "aquarius",
+	"imgUrl": "graphics/emojis/aquarius.png",
+	"code": ":aquarius:",
+	"category": "emoji-symbols"
+}, {
+	"name": "pisces",
+	"imgUrl": "graphics/emojis/pisces.png",
+	"code": ":pisces:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ophiuchus",
+	"imgUrl": "graphics/emojis/ophiuchus.png",
+	"code": ":ophiuchus:",
+	"category": "emoji-symbols"
+}, {
+	"name": "six_pointed_star",
+	"imgUrl": "graphics/emojis/six_pointed_star.png",
+	"code": ":six_pointed_star:",
+	"category": "emoji-symbols"
+}, {
+	"name": "negative_squared_cross_mark",
+	"imgUrl": "graphics/emojis/negative_squared_cross_mark.png",
+	"code": ":negative_squared_cross_mark:",
+	"category": "emoji-symbols"
+}, {
+	"name": "a",
+	"imgUrl": "graphics/emojis/a.png",
+	"code": ":a:",
+	"category": "emoji-symbols"
+}, {
+	"name": "b",
+	"imgUrl": "graphics/emojis/b.png",
+	"code": ":b:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ab",
+	"imgUrl": "graphics/emojis/ab.png",
+	"code": ":ab:",
+	"category": "emoji-symbols"
+}, {
+	"name": "o2",
+	"imgUrl": "graphics/emojis/o2.png",
+	"code": ":o2:",
+	"category": "emoji-symbols"
+}, {
+	"name": "diamond_shape_with_a_dot_inside",
+	"imgUrl": "graphics/emojis/diamond_shape_with_a_dot_inside.png",
+	"code": ":diamond_shape_with_a_dot_inside:",
+	"category": "emoji-symbols"
+}, {
+	"name": "recycle",
+	"imgUrl": "graphics/emojis/recycle.png",
+	"code": ":recycle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "end",
+	"imgUrl": "graphics/emojis/end.png",
+	"code": ":end:",
+	"category": "emoji-symbols"
+}, {
+	"name": "back",
+	"imgUrl": "graphics/emojis/back.png",
+	"code": ":back:",
+	"category": "emoji-symbols"
+}, {
+	"name": "on",
+	"imgUrl": "graphics/emojis/on.png",
+	"code": ":on:",
+	"category": "emoji-symbols"
+}, {
+	"name": "soon",
+	"imgUrl": "graphics/emojis/soon.png",
+	"code": ":soon:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock1",
+	"imgUrl": "graphics/emojis/clock1.png",
+	"code": ":clock1:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock130",
+	"imgUrl": "graphics/emojis/clock130.png",
+	"code": ":clock130:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock10",
+	"imgUrl": "graphics/emojis/clock10.png",
+	"code": ":clock10:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock1030",
+	"imgUrl": "graphics/emojis/clock1030.png",
+	"code": ":clock1030:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock11",
+	"imgUrl": "graphics/emojis/clock11.png",
+	"code": ":clock11:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock1130",
+	"imgUrl": "graphics/emojis/clock1130.png",
+	"code": ":clock1130:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock12",
+	"imgUrl": "graphics/emojis/clock12.png",
+	"code": ":clock12:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock1230",
+	"imgUrl": "graphics/emojis/clock1230.png",
+	"code": ":clock1230:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock2",
+	"imgUrl": "graphics/emojis/clock2.png",
+	"code": ":clock2:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock230",
+	"imgUrl": "graphics/emojis/clock230.png",
+	"code": ":clock230:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock3",
+	"imgUrl": "graphics/emojis/clock3.png",
+	"code": ":clock3:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock330",
+	"imgUrl": "graphics/emojis/clock330.png",
+	"code": ":clock330:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock4",
+	"imgUrl": "graphics/emojis/clock4.png",
+	"code": ":clock4:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock430",
+	"imgUrl": "graphics/emojis/clock430.png",
+	"code": ":clock430:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock5",
+	"imgUrl": "graphics/emojis/clock5.png",
+	"code": ":clock5:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock530",
+	"imgUrl": "graphics/emojis/clock530.png",
+	"code": ":clock530:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock6",
+	"imgUrl": "graphics/emojis/clock6.png",
+	"code": ":clock6:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock630",
+	"imgUrl": "graphics/emojis/clock630.png",
+	"code": ":clock630:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock7",
+	"imgUrl": "graphics/emojis/clock7.png",
+	"code": ":clock7:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock730",
+	"imgUrl": "graphics/emojis/clock730.png",
+	"code": ":clock730:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock8",
+	"imgUrl": "graphics/emojis/clock8.png",
+	"code": ":clock8:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock830",
+	"imgUrl": "graphics/emojis/clock830.png",
+	"code": ":clock830:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock9",
+	"imgUrl": "graphics/emojis/clock9.png",
+	"code": ":clock9:",
+	"category": "emoji-symbols"
+}, {
+	"name": "clock930",
+	"imgUrl": "graphics/emojis/clock930.png",
+	"code": ":clock930:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_dollar_sign",
+	"imgUrl": "graphics/emojis/heavy_dollar_sign.png",
+	"code": ":heavy_dollar_sign:",
+	"category": "emoji-symbols"
+}, {
+	"name": "copyright",
+	"imgUrl": "graphics/emojis/copyright.png",
+	"code": ":copyright:",
+	"category": "emoji-symbols"
+}, {
+	"name": "registered",
+	"imgUrl": "graphics/emojis/registered.png",
+	"code": ":registered:",
+	"category": "emoji-symbols"
+}, {
+	"name": "tm",
+	"imgUrl": "graphics/emojis/tm.png",
+	"code": ":tm:",
+	"category": "emoji-symbols"
+}, {
+	"name": "x",
+	"imgUrl": "graphics/emojis/x.png",
+	"code": ":x:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_exclamation_mark",
+	"imgUrl": "graphics/emojis/heavy_exclamation_mark.png",
+	"code": ":heavy_exclamation_mark:",
+	"category": "emoji-symbols"
+}, {
+	"name": "bangbang",
+	"imgUrl": "graphics/emojis/bangbang.png",
+	"code": ":bangbang:",
+	"category": "emoji-symbols"
+}, {
+	"name": "interrobang",
+	"imgUrl": "graphics/emojis/interrobang.png",
+	"code": ":interrobang:",
+	"category": "emoji-symbols"
+}, {
+	"name": "o",
+	"imgUrl": "graphics/emojis/o.png",
+	"code": ":o:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_multiplication_x",
+	"imgUrl": "graphics/emojis/heavy_multiplication_x.png",
+	"code": ":heavy_multiplication_x:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_plus_sign",
+	"imgUrl": "graphics/emojis/heavy_plus_sign.png",
+	"code": ":heavy_plus_sign:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_minus_sign",
+	"imgUrl": "graphics/emojis/heavy_minus_sign.png",
+	"code": ":heavy_minus_sign:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_division_sign",
+	"imgUrl": "graphics/emojis/heavy_division_sign.png",
+	"code": ":heavy_division_sign:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_flower",
+	"imgUrl": "graphics/emojis/white_flower.png",
+	"code": ":white_flower:",
+	"category": "emoji-symbols"
+}, {
+	"name": "100",
+	"imgUrl": "graphics/emojis/100.png",
+	"code": ":100:",
+	"category": "emoji-symbols"
+}, {
+	"name": "heavy_check_mark",
+	"imgUrl": "graphics/emojis/heavy_check_mark.png",
+	"code": ":heavy_check_mark:",
+	"category": "emoji-symbols"
+}, {
+	"name": "ballot_box_with_check",
+	"imgUrl": "graphics/emojis/ballot_box_with_check.png",
+	"code": ":ballot_box_with_check:",
+	"category": "emoji-symbols"
+}, {
+	"name": "radio_button",
+	"imgUrl": "graphics/emojis/radio_button.png",
+	"code": ":radio_button:",
+	"category": "emoji-symbols"
+}, {
+	"name": "link",
+	"imgUrl": "graphics/emojis/link.png",
+	"code": ":link:",
+	"category": "emoji-symbols"
+}, {
+	"name": "curly_loop",
+	"imgUrl": "graphics/emojis/curly_loop.png",
+	"code": ":curly_loop:",
+	"category": "emoji-symbols"
+}, {
+	"name": "wavy_dash",
+	"imgUrl": "graphics/emojis/wavy_dash.png",
+	"code": ":wavy_dash:",
+	"category": "emoji-symbols"
+}, {
+	"name": "part_alternation_mark",
+	"imgUrl": "graphics/emojis/part_alternation_mark.png",
+	"code": ":part_alternation_mark:",
+	"category": "emoji-symbols"
+}, {
+	"name": "trident",
+	"imgUrl": "graphics/emojis/trident.png",
+	"code": ":trident:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_small_square",
+	"imgUrl": "graphics/emojis/black_small_square.png",
+	"code": ":black_small_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_small_square",
+	"imgUrl": "graphics/emojis/white_small_square.png",
+	"code": ":white_small_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_medium_small_square",
+	"imgUrl": "graphics/emojis/black_medium_small_square.png",
+	"code": ":black_medium_small_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_medium_small_square",
+	"imgUrl": "graphics/emojis/white_medium_small_square.png",
+	"code": ":white_medium_small_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_medium_square",
+	"imgUrl": "graphics/emojis/black_medium_square.png",
+	"code": ":black_medium_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_medium_square",
+	"imgUrl": "graphics/emojis/white_medium_square.png",
+	"code": ":white_medium_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_large_square",
+	"imgUrl": "graphics/emojis/black_square.png",
+	"code": ":black_large_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_large_square",
+	"imgUrl": "graphics/emojis/white_large_square.png",
+	"code": ":white_large_square:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_check_mark",
+	"imgUrl": "graphics/emojis/white_check_mark.png",
+	"code": ":white_check_mark:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_square_button",
+	"imgUrl": "graphics/emojis/black_square_button.png",
+	"code": ":black_square_button:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_square_button",
+	"imgUrl": "graphics/emojis/white_square_button.png",
+	"code": ":white_square_button:",
+	"category": "emoji-symbols"
+}, {
+	"name": "black_circle",
+	"imgUrl": "graphics/emojis/black_circle.png",
+	"code": ":black_circle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "white_circle",
+	"imgUrl": "graphics/emojis/white_circle.png",
+	"code": ":white_circle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "red_circle",
+	"imgUrl": "graphics/emojis/red_circle.png",
+	"code": ":red_circle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "large_blue_circle",
+	"imgUrl": "graphics/emojis/large_blue_circle.png",
+	"code": ":large_blue_circle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "large_blue_diamond",
+	"imgUrl": "graphics/emojis/large_blue_diamond.png",
+	"code": ":large_blue_diamond:",
+	"category": "emoji-symbols"
+}, {
+	"name": "large_orange_diamond",
+	"imgUrl": "graphics/emojis/large_orange_diamond.png",
+	"code": ":large_orange_diamond:",
+	"category": "emoji-symbols"
+}, {
+	"name": "small_blue_diamond",
+	"imgUrl": "graphics/emojis/small_blue_diamond.png",
+	"code": ":small_blue_diamond:",
+	"category": "emoji-symbols"
+}, {
+	"name": "small_orange_diamond",
+	"imgUrl": "graphics/emojis/small_orange_diamond.png",
+	"code": ":small_orange_diamond:",
+	"category": "emoji-symbols"
+}, {
+	"name": "small_red_triangle",
+	"imgUrl": "graphics/emojis/small_red_triangle.png",
+	"code": ":small_red_triangle:",
+	"category": "emoji-symbols"
+}, {
+	"name": "small_red_triangle_down",
+	"imgUrl": "graphics/emojis/small_red_triangle_down.png",
+	"code": ":small_red_triangle_down:",
+	"category": "emoji-symbols"
+}, {
+	"name": "shipit",
+	"imgUrl": "graphics/emojis/shipit.png",
+	"code": ":shipit:",
+	"category": "emoji-symbols"
+}]

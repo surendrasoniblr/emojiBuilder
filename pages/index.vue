@@ -16,30 +16,38 @@
             <b-input v-model="emojiText"></b-input>
             <p class="control">
               <b-button class="button is-primary">
-
- <b-icon
-                icon="account"
-                size="is-small">
-            </b-icon>
-
+                <i class="material-icons">mood</i>
+                <!-- <b-icon icon="account" size="is-small"></b-icon> -->
               </b-button>
             </p>
           </b-field>
           <!-- <b-field label="Text">
             <b-input v-model="emojiText"></b-input>
-          </b-field> -->
+          </b-field>-->
         </div>
       </div>
       <div class="column is-3">
         <div style="margin-top:auto">
-
           <b-field label="Background" label-position="on-border">
             <b-input v-model="emojiBackground"></b-input>
             <p class="control">
-              <b-button class="button is-primary">Search</b-button>
+              <b-button @click="isComponentModalActive = true" class="button is-primary">
+                <i class="material-icons">mood</i>
+              </b-button>
+
+              <b-modal
+                :active.sync="isComponentModalActive"
+                has-modal-card
+                trap-focus
+                :destroy-on-hide="false"
+                aria-role="dialog"
+                aria-modal
+              >
+                <emoji-selector></emoji-selector>
+                <!-- <modal-form v-bind="formProps"></modal-form> -->
+              </b-modal>
             </p>
           </b-field>
-
         </div>
       </div>
       <div class="column is-2">
@@ -83,16 +91,20 @@
 
 <script>
 import { mapState } from "vuex";
+import EmojiSelector from "@/components/EmojiSelector";
 
 export default {
   name: "HomePage",
-  components: {},
+  components: {
+    EmojiSelector
+  },
   data() {
     return {
       lineData: [],
       emojiText: "",
       emojiBackground: "",
-      matrix: []
+      matrix: [],
+      isComponentModalActive: false
     };
   },
   computed: {
@@ -120,9 +132,11 @@ export default {
         array = _.concat(this.createArrayFiller(lineNumber), array);
 
         array.forEach(element => {
-          element.emojiText = this.emojiText ? this.emojiText : ":smile:";
+          element.emojiText = this.emojiText
+            ? this.emojiText.trim()
+            : ":smile:";
           element.emojiBackground = this.emojiBackground
-            ? this.emojiBackground
+            ? this.emojiBackground.trim()
             : ":fire:";
         });
 
@@ -173,6 +187,7 @@ export default {
     })
   },
   methods: {
+    emojiSelectorComponent() {},
     createArrayFiller(lineNumber) {
       lineNumber = lineNumber * 7;
       return [

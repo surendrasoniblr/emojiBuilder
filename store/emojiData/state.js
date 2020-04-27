@@ -1,3 +1,5 @@
+import slackEmojiData from '../../data/slackEmojis.json'
+
 export default () => ({
   letterData: [{
     'a': [
@@ -204,4 +206,5 @@ export default () => ({
       [0, 0, 1, 0]
     ]
   }],
+  slackEmojiData: slackEmojiData
 })

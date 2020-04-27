@@ -54,6 +54,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    'nuxt-material-design-icons',
   ],
   /*
    ** Axios module configuration
