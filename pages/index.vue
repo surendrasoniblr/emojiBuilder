@@ -4,26 +4,28 @@
       Emoji Builder
       <b-icon icon="rocket" size="is-large" />
     </h2>
-
-    <!-- <div class="columns">
-      <div class="column is-8">{{lineData}}</div>
-    </div>-->
-
     <div class="columns">
       <div class="column is-3">
         <div style="margin-top:auto">
           <b-field label="Text" label-position="on-border">
             <b-input v-model="emojiText"></b-input>
             <p class="control">
-              <b-button class="button is-primary">
+              <b-button @click="isTextModal = true" class="button is-primary">
                 <i class="material-icons">mood</i>
-                <!-- <b-icon icon="account" size="is-small"></b-icon> -->
               </b-button>
+
+              <b-modal
+                :active.sync="isTextModal"
+                has-modal-card
+                trap-focus
+                :destroy-on-hide="false"
+                aria-role="dialog"
+                aria-modal
+              >
+                <emoji-selector @pickedEmoji="emojiSelected($event, 'text')"></emoji-selector>
+              </b-modal>
             </p>
           </b-field>
-          <!-- <b-field label="Text">
-            <b-input v-model="emojiText"></b-input>
-          </b-field>-->
         </div>
       </div>
       <div class="column is-3">
@@ -31,20 +33,19 @@
           <b-field label="Background" label-position="on-border">
             <b-input v-model="emojiBackground"></b-input>
             <p class="control">
-              <b-button @click="isComponentModalActive = true" class="button is-primary">
+              <b-button @click="isBackgroundModal = true" class="button is-primary">
                 <i class="material-icons">mood</i>
               </b-button>
 
               <b-modal
-                :active.sync="isComponentModalActive"
+                :active.sync="isBackgroundModal"
                 has-modal-card
                 trap-focus
                 :destroy-on-hide="false"
                 aria-role="dialog"
                 aria-modal
               >
-                <emoji-selector></emoji-selector>
-                <!-- <modal-form v-bind="formProps"></modal-form> -->
+                <emoji-selector @pickedEmoji="emojiSelected($event, 'background')"></emoji-selector>
               </b-modal>
             </p>
           </b-field>
@@ -63,16 +64,6 @@
       <div style="margin-top:auto" class="column is-1">
         <b-button @click="deleteColumn(data.id)" type="is-danger" icon-right="delete" />
       </div>
-      <!-- <div style="margin-top:auto" class="column is-2">
-        <b-field label="Text">
-          <b-input v-model="data.emojiText"></b-input>
-        </b-field>
-      </div>
-      <div style="margin-top:auto" class="column is-2">
-        <b-field label="Background">
-          <b-input v-model="data.emojiBackground"></b-input>
-        </b-field>
-      </div>-->
     </div>
     <div class="columns">
       <div class="column is-8">
@@ -104,7 +95,8 @@ export default {
       emojiText: "",
       emojiBackground: "",
       matrix: [],
-      isComponentModalActive: false
+      isBackgroundModal: false,
+      isTextModal: false
     };
   },
   computed: {
@@ -187,6 +179,15 @@ export default {
     })
   },
   methods: {
+    emojiSelected(selected, sectionPicked) {
+      if (sectionPicked === "background") {
+        this.emojiBackground = selected;
+        this.isBackgroundModal = false;
+      } else {
+        this.emojiText = selected;
+        this.isTextModal = false;
+      }
+    },
     emojiSelectorComponent() {},
     createArrayFiller(lineNumber) {
       lineNumber = lineNumber * 7;
