@@ -9,8 +9,12 @@ export default {
         outputArray[value.category].push(value)
       }
     });
-
     return outputArray;
+  },
 
+  getEmojiUrl(state) {
+    
+    // console.log(key);
+    return 'hi';
   }
 }

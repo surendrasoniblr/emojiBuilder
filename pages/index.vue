@@ -8,7 +8,7 @@
       <div class="column is-3">
         <div style="margin-top:auto">
           <b-field label="Text" label-position="on-border">
-            <b-input v-model="emojiText"></b-input>
+            <b-input v-on:change="backgroundImageChange" v-model="emojiText"></b-input>
             <p class="control">
               <b-button @click="isTextModal = true" class="button is-primary">
                 <i class="material-icons">mood</i>
@@ -67,12 +67,22 @@
     </div>
     <div class="columns">
       <div class="column is-8">
-        <table>
+        <table style="margin-bottom:15px">
           <tr v-for="row in generateMatrix" :key="row.id">
-            <td :class="value ? 'on' : ''" v-for="(value, i) in row.value" :key="i"></td>
+            <td
+              :style="{ backgroundImage: 'url(' + (value ? textEmojifn : backgroundEmojifn) +')' }"
+              :class="[value ? 'on' : '', (textEmojifn && backgroundEmojifn ? 'bothEmojisSelected' : '')]"
+              v-for="(value, i) in row.value"
+              :key="i"
+            ></td>
           </tr>
         </table>
-        <b-field label="Output">
+
+        <div class="buttons">
+          <b-button @click="copiedItem()" v-clipboard:copy="copyMatrix">Copy Emoji Text</b-button>
+        </div>
+
+        <b-field label="Output" label-position="on-border">
           <b-input :value="copyMatrix" type="textarea"></b-input>
         </b-field>
       </div>
@@ -81,7 +91,7 @@
 </template>
 
 <script>
-import { mapState } from "vuex";
+import { mapState, mapGetters } from "vuex";
 import EmojiSelector from "@/components/EmojiSelector";
 
 export default {
@@ -100,6 +110,35 @@ export default {
     };
   },
   computed: {
+    textEmojifn() {
+      const valueToCheck = this.emojiText;
+
+      const returnUrl = _.find(this.emojiData, function(emoji) {
+        if (emoji.code === valueToCheck) {
+          const val = emoji.imgUrl;
+          return val;
+        }
+      });
+      if (returnUrl) {
+        return returnUrl.imgUrl;
+      }
+      return '';
+    },
+    backgroundEmojifn() {
+      const valueToCheck = this.emojiBackground;
+
+      const returnUrl = _.find(this.emojiData, function(emoji) {
+        if (emoji.code === valueToCheck) {
+          const val = emoji.imgUrl;
+          return val;
+        }
+      });
+      if (returnUrl) {
+        return returnUrl.imgUrl;
+      }
+      return '';
+    },
+
     copyMatrix() {
       let outputString = "";
       this.matrix.forEach(element => {
@@ -175,16 +214,34 @@ export default {
       return array;
     },
     ...mapState({
-      letterData: state => state.emojiData.letterData
+      letterData: state => state.emojiData.letterData,
+      emojiData: state => state.emojiData.slackEmojiData
+    }),
+    ...mapGetters({
+      getEmojiUrl: "emojiData/getEmojiUrl"
     })
   },
   methods: {
+    backgroundImageChange() {
+      console.log("ffff");
+      // const valueToCheck = value ? this.emojiText : this.emojiBackground;
+
+      // this.emojiData.forEach(emoji => {
+      //   if (emoji.code === valueToCheck) {
+      //     console.log(emoji.imgUrl);
+      //     return emoji.imgUrl;
+      //   }
+      // });
+    },
+    copiedItem() {
+      this.$buefy.toast.open("Copied to Clipboard!");
+    },
     emojiSelected(selected, sectionPicked) {
       if (sectionPicked === "background") {
-        this.emojiBackground = selected;
+        this.emojiBackground = selected.code;
         this.isBackgroundModal = false;
       } else {
-        this.emojiText = selected;
+        this.emojiText = selected.code;
         this.isTextModal = false;
       }
     },
@@ -217,10 +274,19 @@ export default {
 <style lang="scss" scoped>
 td {
   background: red;
-  width: 14px;
-  height: 10px;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &.bothEmojisSelected, &.bothEmojisSelected.on {
+    background-color: transparent ;
+  }
   &.on {
     background: black;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 </style>

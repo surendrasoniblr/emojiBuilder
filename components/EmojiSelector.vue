@@ -1,24 +1,27 @@
 <template>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Emoji Selector</p>
+      <p class="modal-card-title">Emoji Selector - Slack</p>
     </header>
     <section class="modal-card-body">
-      <!-- Might make this a get request to sort the data -->
-      <!-- {{emojiList}} -->
-      <div v-for="(category, index) in emojiList" :key="index">
-        <h6 class="title is-6" style="text-transform:capitalize ">{{titleFormat(index)}}</h6>
+      <!-- <b-field label="Search" label-position="on-border">
+        <b-input v-model="searchValue"></b-input>
+      </b-field> -->
 
-        <div class="columns emoji-category-block is-multiline">
-          <div class="column is-1 emojiblock" v-for="(item, index) in category" :key="index">
-            <b-button
-              @click="selectedEmoji(item.code)"
-              class="emoji-button"
-              :style="{ backgroundImage: 'url(' + item.imgUrl + ')' }"
-            ></b-button>
+      <template>
+        <div v-for="(category, index) in filteredList" :key="index">
+          <h6 class="title is-6" style="text-transform:capitalize ">{{titleFormat(index)}}</h6>
+          <div class="columns emoji-category-block is-multiline">
+            <div class="column is-1 emojiblock" v-for="(item, index) in category" :key="index">
+              <b-button
+                @click="selectedEmoji(item)"
+                class="emoji-button"
+                :style="{ backgroundImage: 'url(' + item.imgUrl + ')' }"
+              ></b-button>
+            </div>
           </div>
         </div>
-      </div>
+      </template>
     </section>
     <footer class="modal-card-foot">
       <button class="button" type="button" @click="$parent.close()">Close</button>
@@ -39,7 +42,7 @@ export default {
           id: 1
         }
       ],
-      selectedOption: null
+      searchValue: ""
     };
   },
   methods: {
@@ -48,10 +51,28 @@ export default {
     },
     selectedEmoji(code) {
       console.log(code);
-      this.$emit('pickedEmoji', code);
+      this.$emit("pickedEmoji", code);
     }
   },
   computed: {
+    filteredList() {
+      if (this.searchValue.length === 0) {
+        return this.emojiList;
+      }
+
+      let search = { search: [] };
+
+      Object.entries(this.emojiList).forEach(([key, value]) => {
+        value.forEach(element => {
+          console.log(this.searchValue);
+          if (element.searchKeys.includes(this.searchValue)) {
+            search.search.push(element);
+          }
+        });
+      });
+
+      return search;
+    },
     ...mapGetters({
       emojiList: "emojiData/getEmojiList"
     })
@@ -60,6 +81,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.modal-card-body {
+  height: 500px;
+  max-height: 500px;
+}
 .emoji-category-block {
   margin-bottom: 10px;
   .emojiblock {
