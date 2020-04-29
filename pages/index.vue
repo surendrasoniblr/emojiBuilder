@@ -57,7 +57,7 @@
     </div>
     <div class="columns" v-for="(data,i) in lineData.slice().reverse()" :key="i">
       <div class="column is-7">
-        <b-field label="Line">
+        <b-field label-position="on-border" label="Line">
           <b-input v-model="data.value"></b-input>
         </b-field>
       </div>
@@ -82,9 +82,9 @@
           <b-button @click="copiedItem()" v-clipboard:copy="copyMatrix">Copy Emoji Text</b-button>
         </div>
 
-        <b-field label="Output" label-position="on-border">
+        <!-- <b-field label="Output" label-position="on-border">
           <b-input :value="copyMatrix" type="textarea"></b-input>
-        </b-field>
+        </b-field>-->
       </div>
     </div>
   </section>
@@ -122,7 +122,7 @@ export default {
       if (returnUrl) {
         return returnUrl.imgUrl;
       }
-      return '';
+      return "";
     },
     backgroundEmojifn() {
       const valueToCheck = this.emojiBackground;
@@ -136,9 +136,8 @@ export default {
       if (returnUrl) {
         return returnUrl.imgUrl;
       }
-      return '';
+      return "";
     },
-
     copyMatrix() {
       let outputString = "";
       this.matrix.forEach(element => {
@@ -268,6 +267,9 @@ export default {
         return currentObject.id !== colId;
       });
     }
+  },
+  created: function() {
+    this.addLine();
   }
 };
 </script>
@@ -278,8 +280,9 @@ td {
   height: 25px;
   background-repeat: no-repeat;
   background-size: cover;
-  &.bothEmojisSelected, &.bothEmojisSelected.on {
-    background-color: transparent ;
+  &.bothEmojisSelected,
+  &.bothEmojisSelected.on {
+    background-color: transparent;
   }
   &.on {
     background: black;

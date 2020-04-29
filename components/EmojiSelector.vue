@@ -1,12 +1,12 @@
 <template>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Emoji Selector - Slack</p>
+      <p class="modal-card-title">Emoji Selector</p>
     </header>
     <section class="modal-card-body">
-      <!-- <b-field label="Search" label-position="on-border">
+      <b-field label="Search" label-position="on-border">
         <b-input v-model="searchValue"></b-input>
-      </b-field> -->
+      </b-field>
 
       <template>
         <div v-for="(category, index) in filteredList" :key="index">
@@ -24,7 +24,7 @@
       </template>
     </section>
     <footer class="modal-card-foot">
-      <button class="button" type="button" @click="$parent.close()">Close</button>
+      <button class="button closebtn" type="button" @click="$parent.close()">Close</button>
     </footer>
   </div>
 </template>
@@ -64,9 +64,10 @@ export default {
 
       Object.entries(this.emojiList).forEach(([key, value]) => {
         value.forEach(element => {
-          console.log(this.searchValue);
-          if (element.searchKeys.includes(this.searchValue)) {
-            search.search.push(element);
+          if (element.searchKeys && this.searchValue) {
+            if (element.searchKeys.includes(this.searchValue)) {
+              search.search.push(element);
+            }
           }
         });
       });
@@ -91,11 +92,16 @@ export default {
     display: inline-block;
     padding: 1%;
     .emoji-button {
+      border: 0;
       width: 25px;
       height: 25px;
       background-repeat: no-repeat;
       background-size: cover;
     }
   }
+}
+.closebtn {
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 4px !important;
 }
 </style>
