@@ -1,12 +1,12 @@
 <template>
   <section class="section container">
-    <h2 class="title is-3 has-text-grey">
+    <!-- <h2 class="title is-3 has-text-grey">
       Emoji Builder
       <b-icon icon="rocket" size="is-large" />
-    </h2>
-    <div class="columns">
-      <div class="column is-3">
-        <div style="margin-top:auto">
+    </h2>-->
+    <div class="columns is-centered">
+      <div class="column is-4">
+        <div style="margin-top:auto; width: 100%">
           <b-field label="Text" label-position="on-border">
             <b-input v-on:change="backgroundImageChange" v-model="emojiText"></b-input>
             <p class="control">
@@ -28,8 +28,8 @@
           </b-field>
         </div>
       </div>
-      <div class="column is-3">
-        <div style="margin-top:auto">
+      <div class="column is-4">
+        <div style="margin-top:auto; width: 100%">
           <b-field label="Background" label-position="on-border">
             <b-input v-model="emojiBackground"></b-input>
             <p class="control">
@@ -51,12 +51,12 @@
           </b-field>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-4">
         <b-button style="margin-top:auto" @click="addLine">Add Line</b-button>
       </div>
     </div>
-    <div class="columns" v-for="(data,i) in lineData.slice().reverse()" :key="i">
-      <div class="column is-7">
+    <div class="columns is-centered" v-for="(data,i) in lineData.slice().reverse()" :key="i">
+      <div class="column is-11">
         <b-field label-position="on-border" label="Line">
           <b-input v-model="data.value"></b-input>
         </b-field>
@@ -65,8 +65,8 @@
         <b-button @click="deleteColumn(data.id)" type="is-danger" icon-right="delete" />
       </div>
     </div>
-    <div class="columns">
-      <div class="column is-8">
+    <div class="columns is-centered">
+      <div class="column is-12">
         <table style="margin-bottom:15px">
           <tr v-for="row in generateMatrix" :key="row.id">
             <td
@@ -77,11 +77,9 @@
             ></td>
           </tr>
         </table>
-
         <div class="buttons">
           <b-button @click="copiedItem()" v-clipboard:copy="copyMatrix">Copy Emoji Text</b-button>
         </div>
-
         <!-- <b-field label="Output" label-position="on-border">
           <b-input :value="copyMatrix" type="textarea"></b-input>
         </b-field>-->
@@ -291,5 +289,12 @@ td {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+.material-icons {
+  display: flex;
+}
+.control.is-clearfix {
+  width: 100%;
 }
 </style>
